@@ -33,7 +33,9 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
+; !! -------------------------------------------------------------------------------------------------------------------------------------
 ; !! ----------- if recompiling setup file, change these two path locations below to their respective files on your desktop ----------- !!
+; !! -------------------------------------------------------------------------------------------------------------------------------------
 
 [Files]
 Source: "C:\Users\thisi\Desktop\ahksyntax\AHK_API_Syntax_Writer_2\lua2exe\lua2exe-windows.exe"; DestDir: "{app}"; Flags: ignoreversion
