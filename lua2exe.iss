@@ -21,6 +21,9 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={userdesktop}\..\{#MyAppName}
 DefaultGroupName={#MyAppName}
+; !! -------------------------------------------------------------------------------------------------------------------------------------
+; !! ----------- if recompiling setup file, download license.txt from this repo and change the path below to that file ----------- !!
+; !! -------------------------------------------------------------------------------------------------------------------------------------
 LicenseFile=C:\Users\thisi\Downloads\license.txt
 OutputBaseFilename=lua2exe-setup
 Compression=lzma
